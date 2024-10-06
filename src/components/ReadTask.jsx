@@ -34,11 +34,11 @@ const ReadTask = () => {
     showData();
   }, []);
   return (
-    <div>
+    <div className="grid grid-cols-1 md:grid-cols-3 md:gap-5">
       {formdata.map((item) => {
         return (
           <div
-            className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+            className="max-w-sm p-6 my-5 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
             key={item.id}
           >
             <a href="#">

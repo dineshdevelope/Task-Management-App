@@ -3,6 +3,7 @@ import HomePage from "./components/HomePage";
 import ReadTask from "./components/ReadTask";
 import EditTask from "./components/EditTask";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/read" element={<ReadTask />} />
           <Route path="edit" element={<EditTask />} />
         </Routes>
+        <Footer />
       </div>
     </>
   );
